@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    padding: 25px;
+    background-color: black;
+    color:#B8BCCC;
+}
+.btn{
+    font-size: 1.3rem;
+    padding: 12px 55px;
+    border: none;
+    color:#eff1f9 ;
+    background-color:#575A85;
+    border-radius: 6px;
+    margin: 10px 0;
+    cursor: pointer;
+    margin-top:40px;
+}
+.removeBtn{
+    display: none;
+}
+.ipDetails{
+    display: flex;
+    justify-content: space-between;
+    margin: 46px 0;
+}
+.ipDetails ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.map{
+    border: 1px solid gray;
+    width: 97%;
+    height: 90vh;
+    background-color: #575A85;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px
+}
+.map p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 23px;
+    font-size: 22px;
+}
+#timezone h3{
+    margin: 9px 0;
+}
+#timezone{
+    margin: 45px 0;
+}
+#timezone h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #e0dbdb;
+}
+#searchBoxed{
+    width: 100%;
+    box-sizing: border-box;
+}
+#searchBoxed input{
+    box-sizing: border-box;
+    font-size: 17px;
+    padding: 9px 15px;
+    outline: none;
+    background-color: black;
+    border: none;
+    width: 100%;
+    color:white;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    align-items: center;
+    padding: 5px;
+    border-radius: 7px
+}
+#postOfficeList{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    row-gap: 15px;
+    column-gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#postOfficeList ul{
+    width: 635px;
+    margin: 15px 0;
+    list-style: none;
+    border: none;
+    background: #575A85;
+    color: #ebebea;
+    border-radius: 10px;
+}
+#postOfficeList ul{
+    padding: 25px;
+}
+#postOfficeList ul li{
+    /* border: 1px solid red; */
+    margin: 15px 0;
+    font-size: 20px;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #e0dbdb;
+}
